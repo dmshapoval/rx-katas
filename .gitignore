@@ -1,0 +1,74 @@
+**/ErrorLog/*
+**/packages/*
+**/bin/*
+**/obj/*
+**/.vs/*
+
+*.user
+*.dbmdl
+*.jfm
+**/logfile*
+**/logs/*
+**/Logs/*
+
+node_modules/
+
+#Settings
+**/appsettings.*.json
+**/.env
+
+#Publish
+*.pubxml
+
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Publish Profiles
+*.pubxml
+profile.arm.json
+
+# Certificates
+*.key
+*.crt
+*.cnf
+
+# App Properties
+**/Properties/ServiceDependencies/*
+**/Properties/serviceDependencies.json
+**/Properties/serviceDependencies.*.json
+
+
+# AL
+AL/**/*.app
+AL/**/*.flf
+AL/**/*.g.xlf
+AL/**/rad.json
+AL/.vscode
+AL/.snapshots
+
+#Secrets
+src/requests/**/*.env
